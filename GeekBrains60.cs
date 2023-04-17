@@ -6,7 +6,6 @@
 //26(1, 0, 1) 55(1, 1, 1)
 
 using System;
-using System.Data.Common;
 
 namespace C__Learning
 {
