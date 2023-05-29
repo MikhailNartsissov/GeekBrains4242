@@ -24,7 +24,7 @@ def parse_input(input_str: str) -> int:
 def occurrences_count() -> None:
     """
     The function asks user to input length of list, list elements and value for count its occurrences in the list.
-    Then it counts occurrences of the value in the list fnd prints it/
+    Then it counts occurrences of the value in the list fnd prints it.
     """
     list_length = parse_input(
         input("Введите количество элементов в массиве: ")
@@ -47,4 +47,5 @@ def occurrences_count() -> None:
     print(f"\nКоличество вхождений элемента {element} в массив равно {result}")
 
 
-occurrences_count()
+if __name__ == '__main__':
+    occurrences_count()
