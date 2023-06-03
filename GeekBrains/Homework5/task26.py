@@ -28,7 +28,7 @@ def power_of_numbers(a: int, b: int) -> int:
 
 
 if __name__ == "__main__":
-    first_number = parse_input(input("\nВведите первый аргумент (целое положительное число): "))
-    second_number = parse_input(input("Введите второй аргумент (целое положительное число): "))
+    first_number = parse_input(input("\nВведите первый аргумент (целое неотрицательное число): "))
+    second_number = parse_input(input("Введите второй аргумент (целое неотрицательное число): "))
     print(f"\nЕсли {first_number} возвести в степень {second_number}, "
           f"получится {power_of_numbers(first_number, second_number)}")
