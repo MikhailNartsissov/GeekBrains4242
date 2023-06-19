@@ -76,9 +76,9 @@ while choice != 0:
                             if confirm.strip().lower() == 'y' or confirm.strip().lower() == 'д':
                                 found = True
                             else:
-                                new_phonebook += record
+                                new_phonebook += record + "\n"
                         else:
-                            new_phonebook += record
+                            new_phonebook += record + "\n"
                     phonebook.close()
                     if found:
                         print("Удаление выполнено успешно")
